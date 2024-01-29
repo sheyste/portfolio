@@ -13,7 +13,7 @@
         <header class="l-header">
             <nav class="nav bd-grid">
                 <div>
-                    <a href="#" class="nav__logo">Sheyste Portfolio</a>
+                    <a href="#" class="nav__logo">Sheyste BenDev</a>
                 </div>
 
                 <div class="nav__menu" id="nav-menu">
@@ -35,14 +35,15 @@
         <main class="l-main">
             <section class="home bd-grid" id="home">
                 <div class="home__data">
-                    <h1 class="home__title">Hi, I am <span class="home__title-color"><br>Sheyste Benerable</span><br> Web Developer</h1>
+                    <h1 class="home__title">Hi, I am <span class="home__title-color"><br>Sheyste Benerable</span><br><span class="typing"></span></h1>
                     <a href="#" class="button">Download CV</a>
                 </div>
 
                 <div class="home__social">
-                    <a href="https://www.linkedin.com/in/sheystebenerable" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
-					<a href="https://fb.me/sheyste.me" class="home__social-icon"><i class='bx bxl-facebook' ></i></a>
-                    <a href="https://github.com/sheyste" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                    <a target="_blank" href="https://www.linkedin.com/in/sheystebenerable" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+					<a target="_blank" href="https://fb.me/sheyste.me" class="home__social-icon"><i class='bx bxl-facebook' ></i></a>
+                    <a target="_blank" href="https://github.com/sheyste" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+					<a target="_blank" href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=sheystebenerable@outlook.ph" class="home__social-icon"><i class='bx bxl-google' ></i></a>
                 </div>
 
                 <div class="home__img">
@@ -176,16 +177,25 @@
         </main>
 
         <footer class="footer">
-            <p class="footer__title">Sheyste Portfolio</p>
+            <p class="footer__title">Sheyste BenDev</p>
             <div class="footer__social">
-				<a href="https://www.linkedin.com/in/sheystebenerable" class="footer__icon"><i class='bx bxl-linkedin'></i></a>
-				<a href="https://fb.me/sheyste.me" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
-				<a href="https://github.com/sheyste" class="footer__icon"><i class='bx bxl-github' ></i></a>
+				<a target="_blank" href="https://www.linkedin.com/in/sheystebenerable" class="footer__icon"><i class='bx bxl-linkedin'></i></a>
+				<a target="_blank" href="https://fb.me/sheyste.me" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+				<a target="_blank" href="https://github.com/sheyste" class="footer__icon"><i class='bx bxl-github' ></i></a>
             </div>
             <p class="footer__copy">&copy; Sheyste Benerable</p>
         </footer>
 
         <script src="https://unpkg.com/scrollreveal"></script>
         <script src="assets/js/main.js"></script>
+		<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+		<script type="text/javascript">
+			var typed = new Typed('.typing',{
+				strings: ["Web Developer", "Video Editor", "Photographer", "Film Maker"],
+				loop: true,
+				typeSpeed: 65,
+				backSpeed: 20
+			});
+		</script>
     </body>
 </html>
