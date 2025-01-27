@@ -1,3 +1,4 @@
+
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 
 :root {
@@ -318,19 +319,6 @@ img {
 .work__img img:hover {
   transform: scale(1.1);
 }
-
-
-
-.contact-icon{
-	text-align: center;
-}
-
-.contact-icon-one{
-  font-size: 1.5rem;
-  color: black;
-  margin: 0 var(--mb-2);
-}
-
 
 
 .contact__input {
